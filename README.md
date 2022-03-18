@@ -1,6 +1,12 @@
 # AngularLibrary
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.3.
+
+Its a Simple Angular Application with Simple Employee Library 
+
+This NodeJS Application consist fgollowing features
+1. Creating, Editing, Deleting User with adding roles to the users by the admin
+2. Usage of General  Middlewares and User Middlewares in the routes with JWT Verification
+3. Creating Sub-admins by the main Admin
 
 ## Development server
 

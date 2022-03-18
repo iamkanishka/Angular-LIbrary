@@ -15,6 +15,12 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2017",
+    "paths": {
+      "staffemployee": [
+        "dist/staffemployee/staffemployee",
+        "dist/staffemployee"
+      ]
+    },
     "module": "es2020",
     "lib": [
       "es2018",
