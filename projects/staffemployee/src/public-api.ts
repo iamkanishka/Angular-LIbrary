@@ -5,3 +5,4 @@
 export * from './lib/staffemployee.service';
 export * from './lib/staffemployee.component';
 export * from './lib/staffemployee.module';
+export * from './lib/employee';

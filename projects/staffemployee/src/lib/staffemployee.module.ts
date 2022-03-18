@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { StaffemployeeComponent } from './staffemployee.component';
+import {HttpClientModule} from '@angular/common/http'
 
 
 
