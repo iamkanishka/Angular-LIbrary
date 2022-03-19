@@ -1,8 +1,12 @@
 # AngularLibrary
 A Angular Application with StaffEmployee Library 
 
-This Angular Application consist following features
-1. Creating a Angular Library(StaffEmployees  - Which Returns the list of Staff Employees from API)
+This Repo's following features
+1. Creation of a Angular Library(StaffEmployees  - Which Returns the list of Staff Employees from API)
+
+
+What i learnt
+1. Creation of a Angular Library(StaffEmployees  - Which Returns the list of Staff Employees from API)
 2. Deploying Created Library to the NPM registry
 
 Please Follow These Steps for Developing the Angular Library
