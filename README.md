@@ -1,33 +1,36 @@
 # AngularLibrary
+A Angular Application with StaffEmployee Library 
+
+This Angular Application consist following features
+1. Creating a Angular Library(StaffEmployees  - Which Returns the list of Staff Employees from API)
+2. Deploying Created Library to the NPM registry
+
+Please Follow These Steps for Developing the Angular Library
+## Create Angular Project
+
+Run `ng new Angular-Library` for a new Fresh  Angular Application. This Command  will automatically create a new Angular Application.
 
 
-Its a Simple Angular Application with Simple Employee Library 
+## Scaffold  Angular Library
 
-This NodeJS Application consist fgollowing features
-1. Creating, Editing, Deleting User with adding roles to the users by the admin
-2. Usage of General  Middlewares and User Middlewares in the routes with JWT Verification
-3. Creating Sub-admins by the main Admin
+Run `ng g lib StaffEmployee` for a new Fresh  Angular Library. This Command  will automatically Scaffold the Angular Library with respective Module and  Componenet and Add your Functionality in the Library.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+After Adding the functionality Run `ng build StaffEmployee --prod` to build the angular Library,The build artifacts will be stored in the `dist/` directory. But if you make any Changes, the Library has to Rebuilt with corresponding Command
 
-## Running unit tests
+## Import Library Module
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+After the Build The Library Provides the public API, in the public.api.ts, to access the lirary on the Angular Application, The Coresponding Module has to be imported in the Angular Modules to use the Library 
 
-## Running end-to-end tests
+## Development server
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Now After Importing, Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Publish Library
+
+The Angular Library can be Published in the NPM regostery, Before Publishing the Library has to be Build, Since the Angular Libraries are Compiled with IVY Engines, so the Library has to be build before Publishing.
+   For Publishng the Library just run the Below Command
+    1. `npm publish --access=public`

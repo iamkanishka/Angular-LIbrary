@@ -1,6 +1,9 @@
 {
-  "name": "staffemployee",
+  "name": "staffemployeedetails",
   "version": "0.0.1",
+  "description": "A Angular-Library called staffemployee - Which Returns the list of Staff Employees from API",
+  "keywords": ["Angular","Angular Library","staffemployee"],
+  "author": "Kanishka Naik",
   "peerDependencies": {
     "@angular/common": "^12.2.0",
     "@angular/core": "^12.2.0"
